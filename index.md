@@ -5,7 +5,7 @@ has_children: false
 nav_order: 1
 ---
 
-# Project title
+# MyPlants
 
 ### Authors
 - [Domenico Copia](mailto:domenico.copia@studio.unibo.it)
