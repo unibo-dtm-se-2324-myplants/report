@@ -8,8 +8,7 @@ nav_order: 1
 # Project title
 
 ### Authors
-- [Giovanni Ciatto](mailto:giovanni.ciatto@unibo.it)
-- [Davide Domini](mailto:davide.domini@unibo.it)
+- [Domenico Copia](mailto:domenico.copia@studio.unibo.it)
 
 ## Abstract
 
