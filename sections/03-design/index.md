@@ -7,6 +7,10 @@ nav_order: 4
 # Design
 
 This chapter explains the strategies used to meet the requirements identified in the analysis
+<img src="Eventstorming.png"
+     alt="Eventstorming"
+     style="float: left; margin-right: 10px;" />
+Eventstorming.png
 
 ## Architecture
 
