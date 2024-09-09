@@ -12,8 +12,6 @@ nav_order: 1
 
 ## Abstract
 
-## Abstract
-
 The project aims to create a **Progressive Web App (PWA)** that allows users to upload images of their houseplants and receive detailed information on each plant’s scientific name and watering schedule. The app is designed to be user-friendly, providing seamless access to plant care instructions and reminders through a combination of client-side and server-side functionalities.
 
 From the **client side**, users can perform several key tasks:
