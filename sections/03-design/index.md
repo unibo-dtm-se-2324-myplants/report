@@ -6,11 +6,6 @@ nav_order: 4
 
 # Design
 
-![Eventstorming](Eventstorming.png)
-
-Eventstorming.png
-
-
 ## Architecture
 The architecture of "PlantAI" follows a **layered architecture**, ensuring modularity and maintainability. The key layers include:
 
@@ -50,5 +45,3 @@ The application uses **Local Storage** for caching user data and responses, ensu
 The system is designed with clear **bounded contexts** for managing user data and plant responses. **Repositories** abstract data access from local storage, and **services** handle plant identification and notifications. The design respects **hexagonal architecture**, ensuring separation of concerns between domain logic and external systems.
 
 ![Eventstorming](Eventstorming.png)
-
-Eventstorming.png
