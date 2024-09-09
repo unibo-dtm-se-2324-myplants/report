@@ -5,7 +5,7 @@ has_children: false
 nav_order: 1
 ---
 
-# MyPlants
+# PlantAI
 
 ### Authors
 - [Domenico Copia](mailto:domenico.copia@studio.unibo.it)
