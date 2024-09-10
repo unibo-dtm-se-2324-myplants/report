@@ -38,7 +38,7 @@ nav_order: 3
 
 1. **Performance**  
    The application should process images and retrieve responses quickly to provide a smooth user experience.  
-   - Image upload and identification should complete within a reasonable time (e.g., within 10 seconds under normal conditions).  
+   - Image upload and identification should complete within a reasonable time (e.g., within 5 seconds under normal conditions).  
    - Notifications should be timely and occur without delays.
 
 2. **Usability**  
@@ -72,20 +72,22 @@ nav_order: 3
    - The application should be hosted on a cloud platform (e.g., AWS, Heroku, or Vercel).  
    - Git should be used for version control.  
    - Docker may be used for containerization and consistent deployment.
+  
+## Dependencies
+
+- **dotenv** (`^16.4.5`): Used to load environment variables from a `.env` file into `process.env` for secure configuration management.
+  
+- **express** (`^4.19.2`): A web framework for Node.js, used to handle HTTP requests and build the backend server.
+
+- **multer** (`^1.4.5-lts.1`): Middleware for handling multipart/form-data, specifically for uploading plant images.
+
+- **openai** (`^4.45.0`): Used to interact with the OpenAI API for plant image identification and care recommendations.
 
 ## Explanation of Terms
 
 1. **Service Worker**  
    **Definition**: A script that runs in the background, separate from a web page, enabling features such as offline capabilities and push notifications.  
    **Usage in PlantAI**: Used to cache essential files, ensuring the app works offline and can send notifications.
-
-2. **Multer**  
-   **Definition**: A middleware for Node.js used for handling multipart/form-data, primarily for uploading files.  
-   **Usage in PlantAI**: Used on the server side to handle image uploads from users.
-
-3. **OpenAI API**  
-   **Definition**: A platform provided by OpenAI offering AI capabilities such as natural language processing and image recognition.  
-   **Usage in PlantAI**: Used to analyze uploaded plant images and provide identification and care instructions.
 
 ---
 
