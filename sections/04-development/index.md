@@ -26,14 +26,13 @@ For the development of **PlantAI**, Git was used as the distributed version cont
 
 PlantAI follows the **Conventional Commits** standard to maintain a clear and consistent commit history. The structure of commit messages follows this format:
 
-#### Types of Commits:
-- **feat**: Introduces a new feature.
-- **fix**: Fixes a bug.
-- **docs**: Changes to documentation.
-- **style**: Code style changes that do not affect functionality (e.g., formatting).
-- **refactor**: Code changes that neither fix a bug nor add a feature.
-- **perf**: Performance improvements.
-- **test**: Adding or correcting tests.
+| Abbreviation | Meaning |
+|--------------|---------|
+| `feat`       | Introduces a new feature |
+| `fix`        | Fixes a bug |
+| `docs`       | Changes to documentation |
+| `style`      | Changes that do not affect the meaning of the code|
+| `perf`       | Performance improvements |
 
 #### Example Commit Messages:
 - fix(noplant-detected): error message removed after 5 seconds
