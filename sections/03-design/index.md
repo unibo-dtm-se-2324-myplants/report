@@ -14,9 +14,6 @@ The architecture of "PlantAI" follows a **layered architecture**, ensuring modul
 3. **Data Access Layer**: Manages data storage and retrieval. Local storage is used for caching responses on the client, while Multer handles image uploads on the server.
 4. **Service Layer**: Interfaces with external services like the OpenAI API to perform plant identification.
 
-## Modelling
-
-
 ## Interaction
 When a user uploads an image, the system follows this flow:
 1. The image is uploaded via the frontend.
