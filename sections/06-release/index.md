@@ -6,8 +6,6 @@ nav_order: 7
 
 # Release
 
-# Release Plan for PlantAI
-
 ## What to Release, Where, and How
 
 ### What to Release:
@@ -19,8 +17,6 @@ The primary release of **PlantAI** will include:
 
 ### Where to Release:
 - **GitHub**: The codebase will be made available as an open-source project on GitHub, allowing for easy access, contribution, and issue tracking.
-### Where to Release:
-### Where to Release:
 - **Vercel (or similar platform)**: The live version of **PlantAI** will be deployed on a cloud platform such as Vercel for users to experience the full functionality, including plant identification and notification features.
 
 However, during development, I encountered some challenges deploying this version of the app on **Vercel**, particularly related to handling the backend integration and service worker caching. If I had to start over, I would consider using **Next.js**. Next.js offers better support for server-side rendering, more seamless integration with Vercel, and optimized deployment workflows. By switching to Next.js, I believe the development process would be smoother, especially for managing server-side logic and improving the overall performance of the app.
