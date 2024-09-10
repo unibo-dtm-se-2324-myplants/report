@@ -5,13 +5,12 @@ nav_order: 10
 ---
 
 # User Guide
-# User Guide for PlantAI
 
 This guide explains how to use **PlantAI** from a user’s perspective, assuming the application has been successfully deployed.
 
 ## Accessing PlantAI
 
-Once the application is deployed, you can access it via your browser by navigating to the provided URL (e.g., `https://plantai.vercel.app`). **PlantAI** is designed to be used both online and offline, so once you've visited the site, you can continue using it without an internet connection.
+Once the application is deployed, you can access it via your browser by navigating to the provided URL (e.g., `https://plantai.vercel.app`). **PlantAI** is designed to be used both online and offline, so once you've visited the site, you can continue using it without an internet connection but it cannot identify plants offline.
 
 ## Using PlantAI to Identify Plants
 
