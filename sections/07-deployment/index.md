@@ -5,7 +5,6 @@ nav_order: 8
 ---
 
 # Deployment
-# Deployment
 
 To deploy **PlantAI** and ensure it works seamlessly locally on users' machines, follow these steps:
 
