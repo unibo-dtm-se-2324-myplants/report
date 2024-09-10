@@ -5,7 +5,6 @@ nav_order: 11
 ---
 
 # Developer Guide
-# Developer Guide for PlantAI
 
 This guide explains how to use **PlantAI** from a developer's perspective, including setting up the project, using the software’s API, and building additional features.
 
@@ -22,13 +21,13 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository**:
    - Clone the repository to your local machine:
      ```
-     git clone https://github.com/your-repo/plantai.git
+     git clone https://github.com/unibo-dtm-se-2324-myplants/artifact.git
      ```
 
 2. **Install Dependencies**:
    - Navigate to the project directory and install the required Node.js dependencies:
      ```
-     cd plantai
+     cd artifact
      npm install
      ```
 
