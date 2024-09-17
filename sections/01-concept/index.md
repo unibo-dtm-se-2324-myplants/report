@@ -15,11 +15,11 @@ The motivation behind **PlantAI** stems from two key interests:
 1. A personal fascination with houseplant care.
 2. A passion for leveraging the potential of generative AI in practical applications.
 
-The goal of the app is to cater to plant enthusiasts by providing accurate plant identification and care guidance, all while ensuring financial sustainability.
+The goal of the app is to serve plant enthusiasts by providing accurate plant identification and care guidance, all while ensuring financial sustainability.
 
 ## Market Analysis
 
-To gauge the market demand, several existing plant care and identification apps were analyzed:
+To understand the market demand, several existing plant care and identification apps were analyzed:
 
 | App Name                       | Downloads |
 | -------------------------------|-----------|
@@ -36,12 +36,14 @@ These figures reveal a growing interest in plant care and identification apps, s
 
 ![image](https://github.com/user-attachments/assets/2f0f5ae4-143d-4ca0-bde0-47375c19af11)
 
-### Cost Analysis and Financial Model
+## Cost Analysis and Financial Model
 
 ## Total Annual Revenue Estimate
-Assuming the app charges an annual subscription of **$30** and attracts **10,000 users**:
+If the app offers an annual subscription priced at **$30**, which is competitive with similar apps in the market, and manages to attract **10,000 paying users**, the estimated total revenue would be:
 
-- **Total Revenue** = $30 × 10,000 users = **$300,000/year**
+- **Total Revenue** = $30 × 10,000 users = **$300,000 per year**
+
+This figure represents the baseline potential, and with effective marketing, user growth, and expanded features, the revenue could scale further.
 
 ## Detailed Cost Breakdown
 
@@ -50,14 +52,16 @@ The following is a detailed breakdown of estimated annual costs for running Plan
 ### 1. API Usage (OpenAI)
 - Each plant identification request uses the OpenAI API.
 - **Cost per request (using GPT-O)**: $0.0056
-- Assume each user makes **100 requests/year**.
-- **Total API Requests** = 10,000 users × 100 requests = 1,000,000 requests/year
-- **Total API Cost** = 1,000,000 requests × $0.0056 = **$5,600/year**
+- Assume each paying user (10,000 users) makes **100 requests/year**, and each non-paying user (990,000 users) makes **5 requests/year**.
+- **Total API Requests**:
+  - 10,000 paying users × 100 requests = 1,000,000 requests/year
+  - 990,000 non-paying users × 5 requests = 4,950,000 requests/year
+  - **Total API Requests** = 1,000,000 + 4,950,000 = 5,950,000 requests/year
+- **Total API Cost** = 5,950,000 requests × $0.0056 = **$33,320/year**
 
 ### 2. Cloud Hosting and Infrastructure
-PlantAI will incur costs for cloud services (servers, databases, storage, etc.).
-
-- Estimated hosting cost for 10,000 users: **$4,000/year**
+PlantAI will incur costs for cloud services (servers, databases, storage, etc.) to support both paying and non-paying users. 
+- Estimated hosting cost for 1,000,000 users (paying and non-paying combined): **$15,000/year**
 
 ### 3. Development and Maintenance
 Ongoing development is essential to add new features, fix bugs, and maintain the app’s performance.
@@ -78,35 +82,38 @@ PlantAI will need to handle user inquiries, technical support, and feedback.
 
 ## Total Estimated Annual Costs
 
-| Expense Category                | Estimated Annual Cost (USD) |
-| --------------------------------|----------------------------|
-| **API Usage (OpenAI)**           | $5,600                     |
-| **Cloud Hosting & Infrastructure** | $4,000                   |
-| **Development & Maintenance**    | $30,000                     |
-| **Marketing & User Acquisition** | $50,000                     |
-| **Support & Customer Service**   | $12,500                     |
-| **Total Estimated Costs**        | **$102,100**                |
 
-![image](https://github.com/user-attachments/assets/c10ea487-3ddf-459c-b76c-4e495f231f01)
+| Expense Category                  | Estimated Annual Cost (USD) |
+| ----------------------------------|----------------------------|
+| **API Usage (OpenAI)**             | $33,320                    |
+| **Cloud Hosting & Infrastructure** | $15,000                    |
+| **Development & Maintenance**      | $30,000                    |
+| **Marketing & User Acquisition**   | $50,000                    |
+| **Support & Customer Service**     | $12,500                    |
+| **Total Estimated Costs**          | **$140,820**               |
+
+![output](https://github.com/user-attachments/assets/c8f98224-3ea0-4e8e-b9f8-e5c5404c8b02)
 
 ---
 
-## Profit Calculation
+## EBITDA* Calculation
 
 After subtracting operational costs from the total revenue, the remaining profit can be calculated:
 
 1. **Total Revenue** = $300,000/year
-2. **Total Costs** = $102,100/year
+2. **Total Costs** = $140,820/year
 
-**Profit** = Total Revenue - Total Costs = **$300,000 - $102,100** = **$197,900/year**
+**EBITDA** = Total Revenue - Total Costs = **$300,000 - $140,820** = **$159,180/year**
 
-![image](https://github.com/user-attachments/assets/69b13e47-5b7d-4726-b513-4ab68759d306)
+*EBITDA: Earnings before interest, taxes, depreciation, and amortisation.
+
+![output (1)](https://github.com/user-attachments/assets/14d8a365-7171-4bf3-a31c-5780de622e1d)
 
 ---
 
 ## Conclusion
 
-Based on the projected costs, **PlantAI** has a very healthy profit margin. With an estimated annual cost of **$102,100**, the app can generate a substantial profit of **$197,900/year** (before tax), assuming 10,000 users at $30/year each. 
+Based on the projected costs, **PlantAI** has a very healthy profit margin. With an estimated annual cost of **$140,820**, the app can generate a substantial EBITDA of **$159,180/year**, assuming 10,000 paying users at $30/year each and 990,000 non-paying user.
 
 The cost structure remains sustainable as the app scales, especially given the relatively low per-request cost of using OpenAI’s API. As user numbers increase, fixed costs like cloud hosting and development will have a marginal increase, while API costs will scale with usage.
 
@@ -118,7 +125,7 @@ To differentiate **PlantAI** from competitors, the app will introduce **gamifica
 
 Gamification is planned for a future release, and detailed development will follow. This unique value proposition positions **PlantAI** as a standout app in the market.
 
-![image](https://github.com/user-attachments/assets/87d46d7e-db8a-4767-9744-0faf18e733f7)
+![image](https://github.com/user-attachments/assets/1ef3f706-de17-4bb9-a92e-40819db70eea)
 
 ## Features:
 
