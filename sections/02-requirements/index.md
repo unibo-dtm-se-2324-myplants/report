@@ -88,7 +88,3 @@ nav_order: 3
 1. **Service Worker**  
    **Definition**: A script that runs in the background, separate from a web page, enabling features such as offline capabilities and push notifications.  
    **Usage in PlantAI**: Used to cache essential files, ensuring the app works offline and can send notifications.
-
----
-
-By adhering to these requirements, "PlantAI" will provide a feature-rich, secure, and reliable application that meets user needs for plant identification, care tracking, and notification reminders.
