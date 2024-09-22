@@ -19,7 +19,10 @@ The primary release of **PlantAI** will include:
 - **GitHub**: The codebase will be made available as an open-source project on GitHub, allowing for easy access, contribution, and issue tracking.
 - **Vercel (or similar platform)**: The live version of **PlantAI** will be deployed on a cloud platform such as Vercel for users to experience the full functionality, including plant identification and notification features.
 
-However, during development, I encountered some challenges deploying this version of the app on **Vercel**, particularly related to handling the backend integration and service worker caching. If I had to start over, I would consider using **Next.js**. Next.js offers better support for server-side rendering, more seamless integration with Vercel, and optimized deployment workflows. By switching to Next.js, I believe the development process would be smoother, especially for managing server-side logic and improving the overall performance of the app.
+However, during development, I encountered some challenges deploying this version of the app on **Vercel**, particularly related to handling the backend integration and service worker caching. Initially, I attempted to deploy the app on **Heroku**, but after investing both time and money, the results were not as expected..
+
+That’s when I decided to rely on **Vercel** that is free for small projects. If I had to start over, I would also consider using the **Next.js** framework. Next.js offers better support for server-side rendering, more seamless integration with Vercel, and optimized deployment workflows. By switching to Next.js, I believe the development process would be smoother, especially for managing server-side logic and improving the overall performance of the app.
+
 
 ### How to Release:
 1. **Pre-Release Testing**: Before releasing the final version, ensure thorough testing of all features, especially offline functionality, image uploads, and API interactions.
@@ -54,9 +57,3 @@ For **PlantAI**, **Semantic Versioning** (SemVer) is chosen because it provides 
 - **Clarity**: It clearly indicates the type of changes in each release, helping users and contributors understand the impact of updates.
 - **Predictability**: Developers can confidently update the application knowing that backward-compatible versions won’t break existing functionality.
 - **Industry Standard**: Semantic versioning is widely used and understood in the open-source community, making it easier for contributors to follow the project's evolution.
-
----
-
-This release plan ensures **PlantAI** is accessible, well-maintained, and ready for future enhancements while following best practices for versioning and licensing.
-
-
