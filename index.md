@@ -10,6 +10,9 @@ nav_order: 1
 ### Authors
 - [Domenico Copia](mailto:domenico.copia@studio.unibo.it)
 
+## Introduction
+As a student with a background in management, this project marks my first approach to software engineering. My goal was to create a practical tool that combines modern web development practices with AI-powered functionalities, helping plant owners better care for their houseplants. This project has been both a learning experience and an exciting journey into the world of software development.
+
 ## Abstract
 
 The project aims to create a **Progressive Web App (PWA)** that allows users to upload images of their houseplants and receive detailed information on each plant’s scientific name and watering schedule. The app is designed to be user-friendly, providing seamless access to plant care instructions and reminders through a combination of client-side and server-side functionalities.
