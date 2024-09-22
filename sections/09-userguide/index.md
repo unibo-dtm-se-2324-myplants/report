@@ -51,7 +51,3 @@ Once the application is deployed, you can access it via your browser by navigati
 
 - **Clear Storage**: If you want to reset the saved plant data, you can click the **Clear Storage** button on the homepage. This will remove all locally saved plants from your browser.
 - **Enable Notifications**: If you haven’t enabled notifications yet, you can click the **Enable Notifications** button to start receiving watering reminders for your plants.
-
----
-
-By following this guide, you’ll be able to fully utilize **PlantAI** to identify plants, track their care, and receive reminders for watering, ensuring your plants remain healthy and well-cared for.
