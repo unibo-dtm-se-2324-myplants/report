@@ -47,7 +47,7 @@ PlantAI follows the **Conventional Commits** standard to maintain a clear and co
 
 ## Implementation Details
 
-## Personal Learnings and Growth
+### Personal Learnings and Growth
 
 Throughout the development of **PlantAI**, I experienced significant personal growth in my technical abilities. Prior to this project, I was unfamiliar with several key technologies, but by tackling the challenges presented, I gained a much deeper understanding of how to build a complex, fully functional application.
 
@@ -64,6 +64,6 @@ Throughout the development of **PlantAI**, I experienced significant personal gr
 - **Outcome**: With the support of AI and persistent learning, I was able to achieve things that seemed out of reach at the start of this journey. This project has truly opened my eyes to how AI can enhance productivity and learning, especially when tackling challenging development tasks.
 
 ### Proud of the Progress
-I'm incredibly proud of how far I’ve come with **PlantAI**. From using Git effectively for version control to integrating advanced features like AI-powered plant identification and offline functionality, this project has been a profound learning experience. Each new technology I mastered — from service workers to the OpenAI API — represents a step forward in my journey as a developer. 
+I'm incredibly proud of how far I’ve come with **PlantAI**. From using Git effectively for version control to integrating advanced features like AI-powered plant identification and offline functionality, this project has been a profound learning experience. Each new technology I mastered — from service workers to the OpenAI API — represents a step forward in my journey as a "developer". 
 
 Working on this project has taught me not just about code, but about perseverance, creativity, and leveraging modern tools, including AI, to solve problems and build something meaningful.
