@@ -37,9 +37,3 @@ If testing had been fully implemented for **PlantAI**, the process could have fo
 2. **Acceptance Test Outcomes**:
    - If executed, acceptance tests would confirm whether the app aligns with all user stories and functional requirements.
    - A final report would be generated to document any failed tests or unmet requirements, providing a clear roadmap for improvement.
-
-### Comments on Requirements' Acceptance Criteria
-
-- **Outcome**: Full testing would ensure that **PlantAI** meets its functional and non-functional requirements before deployment.
-- **Next Steps**: If testing was in place, any gaps between actual and expected results would have been flagged for further development and refinement.
-
