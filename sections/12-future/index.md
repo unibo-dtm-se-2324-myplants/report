@@ -67,3 +67,8 @@ nav_order: 13
 ---
 
 By addressing these known issues and expanding the app with these future developments, **PlantAI** can evolve into a more robust, user-friendly, and feature-rich platform for plant enthusiasts.
+
+Thank you for taking the time to explore the design and development journey of PlantAI. 
+
+Kindly, Domenico!🌱
+
