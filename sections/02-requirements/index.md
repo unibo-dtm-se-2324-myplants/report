@@ -12,7 +12,7 @@ nav_order: 3
    The application must be able to identify plants from images uploaded by the user and provide relevant details.  
    - Users can upload an image of a plant.  
    - The application processes the image and returns the plant’s common name, scientific name, care instructions, and watering schedule.  
-   - If the image is not of a plant, the application should notify the user appropriately (e.g., "Plant not recognized").
+   - If the image is not of a plant, the application notify the user appropriately "Plant not recognized".
 
 3. **Watering Schedule Generation**  
    The application must generate a watering schedule based on the identified plant type and its environment (indoor/outdoor).  
@@ -57,25 +57,21 @@ nav_order: 3
 
 ## Implementation Requirements
 
-1. **Programming Languages**  
-    The application must be developed using specific programming languages and frameworks.  
-   - The frontend should be developed using HTML, CSS, and JavaScript.  
-   - The backend should be developed using Node.js and Express.
+1. **Programming Languages**    
+   - The frontend is developed using HTML, CSS, and JavaScript.  
+   - The backend is developed using Node.js and Express.
 
 2. **APIs and Libraries**  
-    The application must utilize specific APIs and libraries for image processing and AI capabilities.  
-   - The OpenAI API should be used for plant identification and analysis.  
-   - Multer should be used for handling image file uploads on the server side.
+   - The OpenAI API is be used for plant identification and analysis.  
+   - Multer is used for handling image file uploads on the server side.
 
 3. **Tools and Platforms**  
-   The application should use specified tools and platforms for development and deployment.  
    - The application should be hosted on a cloud platform (e.g., AWS, Heroku, or Vercel).  
-   - Git should be used for version control.  
-   - Docker may be used for containerization and consistent deployment.
-  
+   - Git is used for version control.
+       
 ## Dependencies
 
-- **dotenv** (`^16.4.5`): Used to load environment variables from a `.env` file into `process.env` for secure configuration management.
+- **dotenv** (`^16.4.5`): Used to load environment variables from a `.env` file into `process.env` for secure configuration management. (OpenAI API keys)
   
 - **express** (`^4.19.2`): A web framework for Node.js, used to handle HTTP requests and build the backend server.
 
