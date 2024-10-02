@@ -53,44 +53,44 @@ For **PlantAI**, **Semantic Versioning** (SemVer) is chosen because it provides 
 
 ---
 
-# Changelog
+### Changelog
 
-## [1.0.0] - May 11, 2024
+### [1.0.0] - May 11, 2024
 - **Initial Commit**  
   - Demo import.
 
-## [1.0.1] - May 14, 2024
+### [1.0.1] - May 14, 2024
 - **Performance**  
   - Updated to GPT-4o model for plant identification.
 
-## [1.0.2] - May 14, 2024
+### [1.0.2] - May 14, 2024
 - **Feature**  
   - Added handling for non-plant images.  
 - **Fix**  
   - Fixed form reset after submission.
 
-## [1.0.3] - May 16, 2024
+### [1.0.3] - May 16, 2024
 - **Fix**  
   - UI: Response box now appears in a row.  
   - Fixed prompt response wrap issues.
 - **Docs**  
   - Added a manifest file for PWA capabilities.
 
-## [1.1.0] - May 17, 2024
+### [1.1.0] - May 17, 2024
 - **Feature**  
   - PWA: The app is now installable as a progressive web app.
 
-## [1.1.1] - May 17, 2024
+### [1.1.1] - May 17, 2024
 - **Feature**  
   - LocalStorage: Responses are now saved in the browser's local storage.
 
-## [1.1.2] - May 18, 2024
+### [1.1.2] - May 18, 2024
 - **Feature**  
   - Notifications: Watering reminders for each plant are now available.  
 - **Fix**  
   - No-plant-detected: Error message is removed after 5 seconds.
 
-## [1.1.3] - Sep 09, 2024
+### [1.1.3] - Sep 09, 2024
 - **Fix**  
   - JSON API response: Improved response stability using a more structured JSON format.  
 - **Style**  
