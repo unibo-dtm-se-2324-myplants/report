@@ -35,6 +35,8 @@ To understand the market demand, several existing plant care and identification 
 These figures reveal a growing interest in plant care and identification apps, showcasing the potential for **PlantAI** to carve out its niche.
 
 ![image](https://github.com/user-attachments/assets/2f0f5ae4-143d-4ca0-bde0-47375c19af11)
+![graph1](graph1.png)
+
 
 ## Cost Analysis and Financial Model
 
@@ -93,6 +95,8 @@ PlantAI will need to handle user inquiries, technical support, and feedback.
 | **Total Estimated Costs**          | **$140,820**               |
 
 ![output](https://github.com/user-attachments/assets/c8f98224-3ea0-4e8e-b9f8-e5c5404c8b02)
+![graph2](graph2.png)
+
 
 ---
 
@@ -108,6 +112,7 @@ After subtracting operational costs from the total revenue, the remaining profit
 *EBITDA: Earnings before interest, taxes, depreciation, and amortisation.
 
 ![output (1)](https://github.com/user-attachments/assets/14d8a365-7171-4bf3-a31c-5780de622e1d)
+![graph3](graph3.png)
 
 ---
 
@@ -126,6 +131,8 @@ To differentiate **PlantAI** from competitors, the app will introduce **gamifica
 Gamification is planned for a future release, and detailed development will follow. This unique value proposition positions **PlantAI** as a standout app in the market.
 
 ![image](https://github.com/user-attachments/assets/1ef3f706-de17-4bb9-a92e-40819db70eea)
+![gameification](gameification.png)
+
 
 ## Features:
 
