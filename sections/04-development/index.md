@@ -47,6 +47,28 @@ PlantAI follows the **Conventional Commits** standard to maintain a clear and co
 
 ## Implementation Details
 
+1. **Programming Languages**    
+   - The frontend is developed using HTML, CSS, and JavaScript.  
+   - The backend is developed using Node.js and Express.
+
+2. **APIs and Libraries**  
+   - The OpenAI API is be used for plant identification and analysis.  
+   - Multer is used for handling image file uploads on the server side.
+
+3. **Tools and Platforms**  
+   - The application should be hosted on a cloud platform (e.g., AWS, Heroku, or Vercel).  
+   - Git is used for version control.
+       
+## Dependencies
+
+- **dotenv** (`^16.4.5`): Used to load environment variables from a `.env` file into `process.env` for secure configuration management. (OpenAI API keys)
+  
+- **express** (`^4.19.2`): A web framework for Node.js, used to handle HTTP requests and build the backend server.
+
+- **multer** (`^1.4.5-lts.1`): Middleware for handling multipart/form-data, specifically for uploading plant images.
+
+- **openai** (`^4.45.0`): Used to interact with the OpenAI API for plant image identification and care recommendations.
+
 ### Personal Learnings and Growth
 
 Throughout the development of **PlantAI**, I experienced significant personal growth in my technical abilities. Prior to this project, I was unfamiliar with several key technologies, but by tackling the challenges presented, I gained a much deeper understanding of how to build a complex, fully functional application.
