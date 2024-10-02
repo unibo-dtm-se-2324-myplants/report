@@ -46,6 +46,7 @@ When a user uploads an image, the system follows this flow:
 4. Once a response is received, the plant data is displayed to the user, and past responses are stored locally.
 
 ![image](https://github.com/user-attachments/assets/2482758f-45fb-4c26-8a9b-21e923525614)
+![tab1](tab1.png)
 
 ## Behaviour
 The system transitions through the following states:
@@ -55,12 +56,13 @@ The system transitions through the following states:
 4. **Error State**: If the system fails to identify a plant or encounters an error.
 
 ![image](https://github.com/user-attachments/assets/f85a5f29-9841-4824-8b01-5d98816d0e81)
+![tab2](tab2.png)
 
 ## Data-related Aspects
 The application uses **Local Storage** for caching user data and responses, ensuring offline access. **Multer** is employed to handle image uploads on the server, and these images are sent to the OpenAI API for plant identification.
 
 ![Screenshot 2024-09-09 173143](https://github.com/user-attachments/assets/23977adb-6125-4301-8c7e-6f0ef2e5029b)
-
+![data1](data1.png)
 
 ## Domain-driven Design (DDD)
 The PlantAI application is centered around the domain of plant identification and management. Its primary focus is to help users identify plants through image uploads and provide care instructions. Here’s a brief breakdown based on Domain-Driven Design (DDD) principles:
