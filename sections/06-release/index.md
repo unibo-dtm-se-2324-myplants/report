@@ -6,28 +6,17 @@ nav_order: 7
 
 # Release
 
-## What to Release, Where, and How
-
 ### What to Release:
 The primary release of **PlantAI** will include:
 - **Frontend**: The complete web application with offline capabilities, including all HTML, CSS, and JavaScript files.
 - **Backend**: The Node.js server with integration to the OpenAI API, including all server-side code, API handlers, and image processing logic.
 - **Service Worker**: Configured for caching resources and enabling offline functionality.
 - **Documentation**: Comprehensive README files covering setup instructions, deployment guidelines, and API usage details.
+- **NPM Package**: A version of the app's core functionality will also be released as a package on **npmjs.com** to allow developers to integrate PlantAI into their own projects.
 
 ### Where to Release:
 - **GitHub**: The codebase will be made available as an open-source project on GitHub, allowing for easy access, contribution, and issue tracking.
-- **Vercel (or similar platform)**: The live version of **PlantAI** will be deployed on a cloud platform such as Vercel for users to experience the full functionality, including plant identification and notification features.
-
-However, during development, I encountered some challenges deploying this version of the app on **Vercel**, particularly related to handling the backend integration and service worker caching. Initially, I attempted to deploy the app on **Heroku**, but after investing both time and money, the results were not as expected..
-
-That’s when I decided to rely on **Vercel** that is free for small projects. If I had to start over, I would also consider using the **Next.js** framework. Next.js offers better support for server-side rendering, more seamless integration with Vercel, and optimized deployment workflows. By switching to Next.js, I believe the development process would be smoother, especially for managing server-side logic and improving the overall performance of the app.
-
-
-### How to Release:
-1. **Pre-Release Testing**: Before releasing the final version, ensure thorough testing of all features, especially offline functionality, image uploads, and API interactions.
-2. **Deployment**: Deploy the application using a continuous deployment pipeline through Vercel or another platform, linking to the latest tagged version.
-3. **Versioning**: Follow semantic versioning for future updates, ensuring clear communication of major changes, fixes, or enhancements.
+- **npmjs.com**: The backend and core functionality will be packaged and published as an npm module, allowing for easier distribution and reuse in other projects.
 
 ---
 
@@ -52,8 +41,59 @@ For **PlantAI**, **Semantic Versioning** (SemVer) is chosen because it provides 
 - **MINOR**: Incremented for backward-compatible new features or enhancements.
 - **PATCH**: Incremented for backward-compatible bug fixes or minor improvements.
 
+### What is Being Versioned?
+- The **entire codebase** for both frontend and backend.
+- Each release will be tagged with a specific version based on **SemVer**, to differentiate between new features, bug fixes, and backward-incompatible changes.
+
 ### Why SemVer?
 - **Seen in class documentation**
 - **Clarity**: It clearly indicates the type of changes in each release, helping users and contributors understand the impact of updates.
 - **Predictability**: Developers can confidently update the application knowing that backward-compatible versions won’t break existing functionality.
 - **Industry Standard**: Semantic versioning is widely used and understood in the open-source community, making it easier for contributors to follow the project's evolution.
+
+---
+
+# Changelog
+
+## [1.0.0] - May 11, 2024
+- **Initial Commit**  
+  - Demo import.
+
+## [1.0.1] - May 14, 2024
+- **Performance**  
+  - Updated to GPT-4o model for plant identification.
+
+## [1.0.2] - May 14, 2024
+- **Feature**  
+  - Added handling for non-plant images.  
+- **Fix**  
+  - Fixed form reset after submission.
+
+## [1.0.3] - May 16, 2024
+- **Fix**  
+  - UI: Response box now appears in a row.  
+  - Fixed prompt response wrap issues.
+- **Docs**  
+  - Added a manifest file for PWA capabilities.
+
+## [1.1.0] - May 17, 2024
+- **Feature**  
+  - PWA: The app is now installable as a progressive web app.
+
+## [1.1.1] - May 17, 2024
+- **Feature**  
+  - LocalStorage: Responses are now saved in the browser's local storage.
+
+## [1.1.2] - May 18, 2024
+- **Feature**  
+  - Notifications: Watering reminders for each plant are now available.  
+- **Fix**  
+  - No-plant-detected: Error message is removed after 5 seconds.
+
+## [1.1.3] - Sep 09, 2024
+- **Fix**  
+  - JSON API response: Improved response stability using a more structured JSON format.  
+- **Style**  
+  - UI improvements, especially on small devices.  
+- **Fix**  
+  - Minor fix: Comment for notification timeout in seconds.
