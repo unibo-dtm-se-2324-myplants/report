@@ -142,7 +142,7 @@ nav_order: 3
 **I want** the application to provide a customized watering schedule based on whether the plant is indoor or outdoor,  
 **so that** I can properly care for my plant based on its environment.
 
-### Acceptance Criteria:
+**Acceptance Criteria:**
 - The user can select whether the plant is indoor or outdoor.
 - The application generates an appropriate watering schedule based on the plant's environment.
 
@@ -151,7 +151,7 @@ nav_order: 3
 **I want** to receive notifications reminding me to water my plants,  
 **so that** I don't forget to take care of them.
 
-### Acceptance Criteria:
+**Acceptance Criteria:**
 - The user can opt in to receive watering reminders.
 - Notifications are sent according to the watering schedule.
 
@@ -160,7 +160,7 @@ nav_order: 3
 **I want** to be able to access previous plant identifications and schedules,  
 **so that** I can review the details of plants I’ve already identified.
 
-### Acceptance Criteria:
+**Acceptance Criteria:**
 - The system saves past identifications and watering schedules for future access.
 - The user can view previously identified plants and their schedules.
 
@@ -169,7 +169,7 @@ nav_order: 3
 **I want** to be able to use the application and view previously saved data even when I'm offline,  
 **so that** I can still access plant care information without an internet connection.
 
-### Acceptance Criteria:
+**Acceptance Criteria:**
 - The application caches essential files and past identifications for offline access.
 - Users can view previously stored plant data without an active internet connection.
 
