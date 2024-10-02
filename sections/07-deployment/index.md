@@ -6,6 +6,8 @@ nav_order: 8
 
 # Deployment
 
+## Local
+
 To deploy **PlantAI** and ensure it works seamlessly locally on users' machines, follow these steps:
 
 1. **Clone the Repository**:
@@ -37,5 +39,12 @@ These operations will ensure that **PlantAI** is fully functional and ready for 
 
 ---
 
-### Vercel Deployment Challenges
-While attempting to deploy **PlantAI** to Vercel, I encountered several issues, particularly related to handling service worker caching and backend integration with the OpenAI API. Due to these deployment challenges, the online version is currently unavailable. If I were to start over, I would consider using **Next.js** for better compatibility with Vercel's deployment environment, which could help avoid these issues.
+## Live
+
+The live version of **PlantAI** will be deployed on a cloud platform such as Vercel for users to experience the full functionality, including plant identification and notification features.
+
+However, during development, I encountered some challenges deploying this version of the app on **Vercel**, particularly related to handling the backend integration and service worker caching. Initially, I attempted to deploy the app on **Heroku**, but after investing both time and money, the results were not as expected.
+
+That’s when I decided to rely on **Vercel** that is free for small projects. If I had to start over, I would also consider using the **Next.js** framework. Next.js offers better support for server-side rendering, more seamless integration with Vercel, and optimized deployment workflows. By switching to Next.js, I believe the development process would be smoother, especially for managing server-side logic and improving the overall performance of the app.
+
+So due to these deployment challenges, the online version is currently unavailable.
