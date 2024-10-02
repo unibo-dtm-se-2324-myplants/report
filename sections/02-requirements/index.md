@@ -132,7 +132,7 @@ nav_order: 3
 **I want** to upload an image of a plant,  
 **so that** I can receive information about the plant's name, care instructions, and watering schedule.
 
-#### Acceptance Criteria:
+**Acceptance Criteria:**
 - The user can upload an image.
 - The system identifies the plant and returns the common name, scientific name, and care instructions.
 - If the image is not a plant, the user is notified accordingly.
@@ -146,7 +146,7 @@ nav_order: 3
 - The user can select whether the plant is indoor or outdoor.
 - The application generates an appropriate watering schedule based on the plant's environment.
 
-#### User Story 3: Watering Reminders
+### User Story 3: Watering Reminders
 **As a** busy plant owner,  
 **I want** to receive notifications reminding me to water my plants,  
 **so that** I don't forget to take care of them.
