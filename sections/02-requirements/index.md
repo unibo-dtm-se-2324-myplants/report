@@ -125,19 +125,19 @@ nav_order: 3
    - The application should function offline, displaying cached content and stored responses.  
    - Service worker audits should confirm that the necessary assets are cached correctly for offline usage.
 
-# User Stories [Source](https://en.wikipedia.org/wiki/User_story)
+## User Stories [(Source)](https://en.wikipedia.org/wiki/User_story)
 
-## User Story 1: Plant Identification
+### User Story 1: Plant Identification
 **As a** plant enthusiast,  
 **I want** to upload an image of a plant,  
 **so that** I can receive information about the plant's name, care instructions, and watering schedule.
 
-### Acceptance Criteria:
+#### Acceptance Criteria:
 - The user can upload an image.
 - The system identifies the plant and returns the common name, scientific name, and care instructions.
 - If the image is not a plant, the user is notified accordingly.
 
-## User Story 2: Watering Schedule
+### User Story 2: Watering Schedule
 **As a** plant owner,  
 **I want** the application to provide a customized watering schedule based on whether the plant is indoor or outdoor,  
 **so that** I can properly care for my plant based on its environment.
@@ -146,7 +146,7 @@ nav_order: 3
 - The user can select whether the plant is indoor or outdoor.
 - The application generates an appropriate watering schedule based on the plant's environment.
 
-## User Story 3: Watering Reminders
+#### User Story 3: Watering Reminders
 **As a** busy plant owner,  
 **I want** to receive notifications reminding me to water my plants,  
 **so that** I don't forget to take care of them.
@@ -155,7 +155,7 @@ nav_order: 3
 - The user can opt in to receive watering reminders.
 - Notifications are sent according to the watering schedule.
 
-## User Story 4: Image History
+### User Story 4: Image History
 **As a** user,  
 **I want** to be able to access previous plant identifications and schedules,  
 **so that** I can review the details of plants I’ve already identified.
@@ -164,7 +164,7 @@ nav_order: 3
 - The system saves past identifications and watering schedules for future access.
 - The user can view previously identified plants and their schedules.
 
-## User Story 5: Offline Access
+### User Story 5: Offline Access
 **As a** user with limited internet access,  
 **I want** to be able to use the application and view previously saved data even when I'm offline,  
 **so that** I can still access plant care information without an internet connection.
