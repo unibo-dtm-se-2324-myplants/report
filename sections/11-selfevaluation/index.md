@@ -36,6 +36,17 @@ If I were to start over or continue developing **PlantAI**, I would:
 - Improve my use of Git branching strategies from the start, making the development process more efficient.
 - Allocate more time to testing and deployment to ensure the application works seamlessly across all environments.
 
+## Use of AI Tools
+
+During the preparation of this work, I used **ChatGPT** in order to:
+- Assist with brainstorming solutions for deployment.
+- Clarify best practices for integrating service workers in Progressive Web Apps.
+- Provide guidance on structuring the project report for clarity and professionalism.
+- Guidance with tests and GitHub Actions.
+- Help with critical parts of the project, such as notifications and JSON handling.
+
+After using this tool/service, I reviewed and edited the content as needed and take full responsibility for the content of the final report/artifact.
+
 ---
 
 In conclusion, I am proud of the work I accomplished with **PlantAI**. Despite some challenges, the project allowed me to grow as a developer and provided me with valuable experience in full-stack development, version control, and continuous integration. I have learned a lot from this project and feel more confident in tackling future technical challenges.
